@@ -12,16 +12,16 @@ The dataset contains data points collected from a Combined Cycle Power Plant ove
 ![P2_Data_Exploration_Graph.png](./assets/P2_Data_Exploration_Graph.png)
 ![P2_Data_Exploration_Table.PNG](./assets/P2_Data_Exploration_Table.PNG)
 
-## Training
+## Regression Training
 #### Train the regression model on a randomly selected 70% subset of the data with all predictors.
 
-## Testing
+## Regression Testing
 #### Test both models on the remaining points and report your train and test MSEs.
 
 
 ![P2_Regression_Stats_Graph_7.PNG](./assets/P2_Regression_Stats_Graph_7.PNG)
 
-## Results
+## K-Nearest Neighbor Results
 #### k-nearest neighbor regression using both normalized and raw features. Found the value of k: 1,2, ...,100 that gives the best fit. Plotted the train and test errors in terms of 1/k.
 
 

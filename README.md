@@ -1,4 +1,4 @@
-# Project 2: Power Plant - Multivariate Regression
+# Project 2: Power Plant - Multivariate Regression and K-Nearest Neighbor
 
 *Combined Cycle Power Plant Data Set*
 

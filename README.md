@@ -53,7 +53,7 @@ https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
 
 
 <p align="center">
-  <img src="./assets/P2_Linear_Regression_Graph_1.PNG">
+  <img src="./assets/P2_Linear_Regression_Graph_1.png">
 </p>
 
 <!--![P2_Linear_Regression_Graph_1.png](./assets/P2_Linear_Regression_Graph_1.png)-->
@@ -93,10 +93,11 @@ https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
 <p align="center">
   <img src="./assets/P2_Regression_Stats_Graph_6.PNG">
 </p>
+
 <!--![P2_Regression_Stats_Graph_6.PNG](./assets/P2_Regression_Stats_Graph_6.PNG)-->
 
-**7. Training: Train the regression model on a randomly selected 70% subset of the data with all predictors.
-** Testing: Test both models on the remaining points and report your train and test MSEs.
+**7. Training: Train the regression model on a randomly selected 70% subset of the data with all predictors.**
+**Testing: Test both models on the remaining points and report your train and test MSEs.**
 
 <p align="center">
   <img src="./assets/P2_Regression_Stats_Graph_7.PNG">
@@ -104,7 +105,7 @@ https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
 
 <!-- ![P2_Regression_Stats_Graph_7.PNG](./assets/P2_Regression_Stats_Graph_7.PNG)-->
 
-**8. Results: k-nearest neighbor regression using both normalized and raw features. Found the value of k: 1,2, ...,100 that gives the best fit. Plotted the train and test errors in terms of 1/k.
+**8. Results: k-nearest neighbor regression using both normalized and raw features. Found the value of k: 1,2, ...,100 that gives the best fit. Plotted the train and test errors in terms of 1/k.**
 
 <p align="center">
   <img src="./assets/P2_Regression_Stats_Graph_8.PNG">

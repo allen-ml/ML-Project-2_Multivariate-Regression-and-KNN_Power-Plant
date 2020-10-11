@@ -9,9 +9,17 @@ The dataset contains data points collected from a Combined Cycle Power Plant ove
 
 ## Data Exploration ##
 
+<!-- <img align="center" src="./assets/P2_Data_Exploration_Graph.png">-->
+<p align="center">
+  <img src="./assets/P2_Data_Exploration_Graph.png">
+</p>
 
-![P2_Data_Exploration_Graph.png](./assets/P2_Data_Exploration_Graph.png)
-![P2_Data_Exploration_Table.PNG](./assets/P2_Data_Exploration_Table.PNG)
+<p align="center">
+  <img src="./assets/P2_Data_Exploration_Table.PNG">
+</p>
+<!--<img align="center" src="./assets/P2_Data_Exploration_Table.PNG">
+<!-- ![P2_Data_Exploration_Graph.png](./assets/P2_Data_Exploration_Graph.png)-->
+<!-- ![P2_Data_Exploration_Table.PNG](./assets/P2_Data_Exploration_Table.PNG) -->
 
 ## Regression Training
 #### Train the regression model on a randomly selected 70% subset of the data with all predictors.
@@ -19,14 +27,20 @@ The dataset contains data points collected from a Combined Cycle Power Plant ove
 ## Regression Testing
 #### Test both models on the remaining points and report your train and test MSEs.
 
+<p align="center">
+  <img src="./assets/P2_Regression_Stats_Graph_7.PNG">
+</p>
 
-![P2_Regression_Stats_Graph_7.PNG](./assets/P2_Regression_Stats_Graph_7.PNG)
+<!-- ![P2_Regression_Stats_Graph_7.PNG](./assets/P2_Regression_Stats_Graph_7.PNG)-->
 
 ## K-Nearest Neighbor Results
 #### k-nearest neighbor regression using both normalized and raw features. Found the value of k: 1,2, ...,100 that gives the best fit. Plotted the train and test errors in terms of 1/k.
 
+<p align="center">
+  <img src="./assets/P2_Regression_Stats_Graph_8.PNG">
+</p>
 
-![P2_Regression_Stats_Graph_8.PNG](./assets/P2_Regression_Stats_Graph_8.PNG)
+<!-- ![P2_Regression_Stats_Graph_8.PNG](./assets/P2_Regression_Stats_Graph_8.PNG)-->
 
 ## Analysis Details
 
@@ -38,35 +52,61 @@ https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
 **2. Initial Linear Regression on all data - Without removing insignificant features**
 
 
-![P2_Linear_Regression_Graph_1.png](./assets/P2_Linear_Regression_Graph_1.png)
+<p align="center">
+  <img src="./assets/P2_Linear_Regression_Graph_1.PNG">
+</p>
+
+<!--![P2_Linear_Regression_Graph_1.png](./assets/P2_Linear_Regression_Graph_1.png)-->
 
 **3. Multi-Variat Regression after removing insignificant terms**
 
 
-![P2_Multi_Var_Linear_Regression_Graph_2.PNG](./assets/P2_Multi_Var_Linear_Regression_Graph_2.PNG)
+<p align="center">
+  <img src="./assets/P2_Multi_Var_Linear_Regression_Graph_2.PNG">
+</p>
+<!--![P2_Multi_Var_Linear_Regression_Graph_2.PNG](./assets/P2_Multi_Var_Linear_Regression_Graph_2.PNG)-->
 
 **4.  Full linear regression model with all pairwise interaction terms and states whether any interaction terms are statistically signifcant or not**
 
 
-![P2_Full_Linear_Regression_Graph_3.PNG](./assets/P2_Full_Linear_Regression_Graph_3.PNG)
+<p align="center">
+  <img src="./assets/P2_Full_Linear_Regression_Graph_3.PNG">
+</p>
+
+<!--![P2_Full_Linear_Regression_Graph_3.PNG](./assets/P2_Full_Linear_Regression_Graph_3.PNG)-->
 
 **5. Test the significance of the states statistically**
 
+<p align="center">
+  <img src="./assets/P2_Regression_Stats_Graph_4.PNG">
+</p>
 
-![P2_Regression_Stats_Graph_4.PNG](./assets/P2_Regression_Stats_Graph_4.PNG)
-![P2_Regression_Stats_Graph_5.PNG](./assets/P2_Regression_Stats_Graph_5.PNG)
+<p align="center">
+  <img src="./assets/P2_Regression_Stats_Graph_5.PNG">
+</p>
+
+<!--![P2_Regression_Stats_Graph_4.PNG](./assets/P2_Regression_Stats_Graph_4.PNG)-->
+<!--![P2_Regression_Stats_Graph_5.PNG](./assets/P2_Regression_Stats_Graph_5.PNG)-->
 
 **6. Eliminate insignificant terms and check the statistics of the remianing - P-Value, R-squared and Adj. R-squared:**
 
-
-![P2_Regression_Stats_Graph_6.PNG](./assets/P2_Regression_Stats_Graph_6.PNG)
+<p align="center">
+  <img src="./assets/P2_Regression_Stats_Graph_6.PNG">
+</p>
+<!--![P2_Regression_Stats_Graph_6.PNG](./assets/P2_Regression_Stats_Graph_6.PNG)-->
 
 **7. Training: Train the regression model on a randomly selected 70% subset of the data with all predictors.
 ** Testing: Test both models on the remaining points and report your train and test MSEs.
 
-![P2_Regression_Stats_Graph_7.PNG](./assets/P2_Regression_Stats_Graph_7.PNG)
+<p align="center">
+  <img src="./assets/P2_Regression_Stats_Graph_7.PNG">
+</p>
+
+<!-- ![P2_Regression_Stats_Graph_7.PNG](./assets/P2_Regression_Stats_Graph_7.PNG)-->
 
 **8. Results: k-nearest neighbor regression using both normalized and raw features. Found the value of k: 1,2, ...,100 that gives the best fit. Plotted the train and test errors in terms of 1/k.
 
-
-![P2_Regression_Stats_Graph_8.PNG](./assets/P2_Regression_Stats_Graph_8.PNG)
+<p align="center">
+  <img src="./assets/P2_Regression_Stats_Graph_8.PNG">
+</p>
+<!--![P2_Regression_Stats_Graph_8.PNG](./assets/P2_Regression_Stats_Graph_8.PNG)-->

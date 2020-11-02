@@ -34,7 +34,7 @@ pd.options.display.float_format = '${:,.2f}'.format
 col_Names=["AT","V","AP","RH","PE"]
 
 # Load data from Github - Public data, Raw
-url = 'https://raw.githubusercontent.com/allen-ceo-ai/INFCourse/master/Folds5x2_pp_sheet1.csv'
+url = 'https://raw.githubusercontent.com/allen-ml/ML-Data/master/Folds5x2_pp_sheet1.csv'
 
 # Read "comma delimited" data "Folds5x2_pp_sheet1" For Power Plant 
 # Folds5x2_pp_sheet1 = pd.read_csv(url,names=col_Names)
